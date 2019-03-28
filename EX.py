@@ -9,13 +9,14 @@
 # #### 1. Import the numpy package under the name `np` (★☆☆)
 
 #%%
-
+import numpy as np
 
 #%% [markdown]
 # #### 2. Print the numpy version and the configuration (★☆☆)
 
 #%%
-
+print(np.__version__)
+np.show_config()
 
 #%% [markdown]
 # #### 3. Create a null vector of size 10 (★☆☆)
